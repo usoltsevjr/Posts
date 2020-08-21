@@ -4,7 +4,7 @@ public class PostManager {
 
     private Post[] post;
 
-    public Post[] search(int ownerId, String query) {
+    public Post[] search(int ownerId, String query, String domain, int count, int offset, boolean owners_only) {
 
         // TODO
 

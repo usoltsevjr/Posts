@@ -18,6 +18,11 @@ public class Post {
     private int isPinned;
     private boolean isFavorite;
 
+    private PostLikes postLike;
+    private PostComments postComment;
+    private PostAttachments postAttachment;
+    private PostSettings postSetting;
+
     public int getId() {
         return id;
     }
@@ -169,16 +174,5 @@ public class Post {
     public void setPostSetting(PostSettings postSetting) {
         this.postSetting = postSetting;
     }
-
-
-
-
-    private PostLikes postLike;
-
-    private PostComments postComment;
-
-    private PostAttachments postAttachment;
-
-    private PostSettings postSetting;
 
 }
